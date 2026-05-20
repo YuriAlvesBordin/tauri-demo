@@ -1,12 +1,6 @@
-# tauri-demo 🦀
+# tauri-demo
 
 > Meu primeiro projeto com [Tauri](https://tauri.app/) — uma exploração do framework para construção de aplicações desktop cross-platform usando Rust no backend e tecnologias web (HTML/CSS/JS/TS) no frontend.
-
----
-
-## O que é Tauri?
-
-[Tauri](https://tauri.app/) é um framework que permite criar aplicações desktop nativas usando **Rust** como backend e qualquer tecnologia web como frontend. Diferente do Electron, o Tauri usa o WebView nativo do sistema operacional, resultando em binários muito menores e melhor performance.
 
 ---
 
@@ -108,7 +102,7 @@ tauri-demo/
 
 ## Notas de aprendizado
 
-Este repositório documenta meu primeiro contato com o Tauri. Pontos de atenção durante o setup:
+Pontos de atenção durante o setup:
 
 - O Rust precisa ser instalado via `rustup` e o `PATH` recarregado antes de rodar `npm run tauri dev`.
 - No Linux, as bibliotecas GTK/WebKit devem ser instaladas via `apt` — sem elas o build do Rust falha com erros de `pkg-config`.
